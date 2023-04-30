@@ -1,0 +1,167 @@
+<html>
+<head>
+<style>
+.center-form{
+justify-content: center;
+display: flex;
+margin: 40px 50px;
+padding: 30px;
+}
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+  width : 35%;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+
+}
+
+
+</style>
+<link rel="stylesheet" href="style1.css" />
+<meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <script type="text/javascript" src="marquee.js"></script>
+<title>LOGIN</title></head>
+<body bgcolor=black>
+<header>
+  <div class="header">
+    <nav class="navigation">
+     <a href="#" class="navbar-logo" style="font-family: Brush Script MT;color: wheat;margin-left: -90px;">SUPER WHEELS</a>
+      <div class="navbar-right">
+        <a href="home.html">HOME</a>
+        <a href="login.html">LOGIN</a>
+ 	  <a href="suzuki.html" >SUZUKI</a>
+ 	<a href="mahindra.html" >MAHINDRA</a>
+ <a href="kia.html" >KIA</a>
+ <a href="hyundai.html" >HYUNDAI</a>
+<a href="mini.html">MINI</a>
+<a href="audi.html" >AUDI</a>
+<a href="jaguar.html" >JAGUAR</a>
+ <a href="bmw.html" >BMW</a>
+
+      </div>
+    </nav>
+
+    <div class="video-container" style="height: 135PX !important">
+      <video autoplay loop muted id="video-bg">
+
+        <source src="vid_1.mp4" type="video/mp4">
+
+      </video>
+    </div>
+
+
+  </div>
+</header>
+
+
+<br/>
+<hr>
+<h1 style="color:white;text-align:center;"><strong>LOGIN</strong></style></h1>
+<hr>
+
+<div class="center-form">
+<form action="action_page.php" method="post" width="35%">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" width=250 height=100 alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container" style="color:white">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</div> 	
+<!-- Ion Icons Js -->
+<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<!-- JS -->
+<!-- CSS -->
+<link rel="stylesheet" href="style.css" />
+<hr>
+<footer align=center style="color:white">
+copyright &copy;SPEED WHEELS 2022-2023
+</footer>
+
+</HTML>
